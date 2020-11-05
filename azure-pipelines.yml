@@ -8,13 +8,13 @@ trigger:
 
 strategy:
   matrix:
-    linux_36:
+    linux:
       imageName: "ubuntu-16.04"
       python.version: '3.6'
-    mac_35:
+    mac:
       imageName: "macos-10.14"
       python.version: '3.5'
-    windows27:
+    windows:
       imageName: "vs2017-win2016"
       python.version: '2.7'
   maxParallel: 3
